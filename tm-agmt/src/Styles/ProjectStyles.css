@@ -1,0 +1,136 @@
+.clock-text {
+  font-size: "24px";
+  margin-bottom: "10px";
+}
+
+.date-time-div {
+  text-align: center;
+  width: 11vw;
+  text-shadow: 0.5px 0.5px white;
+  color: whitesmoke;
+  text-transform: uppercase;
+  background-color: #354e64;
+  font-size: x-small;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.directory-div {
+  border: 1px solid black;
+}
+
+.user-list-container {
+  border: 2px solid black;
+  border-radius: 9px;
+  margin-top: 3% !important;
+  margin-left: 0.3% !important;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .user-list-container {
+    margin-top: 18% !important;
+  }
+}
+
+.card-container {
+  border: 2px solid #7c7c7c;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #007bff3b;
+  border-radius: 5px;
+}
+
+.card-sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details {
+  margin: 20px;
+}
+
+.post-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.back-button-div {
+  width: 64px;
+  background-color: #007bff3b;
+  color: black;
+  cursor: pointer;
+  border: 2.5px darkslategray solid;
+  border-radius: 7px;
+  font-weight: 600;
+}
+
+.post-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post-card {
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  cursor: zoom-in;
+}
+.profile-segment {
+  display: flex;
+  float: right;
+}
+
+.child-segment {
+  display: flex;
+  float: right;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .post-card {
+    width: 100%;
+  }
+  .profile-segment {
+    display: contents;
+  }
+}
+
+.clock-button-div {
+  width: 65px;
+  background-color: #90ee9094;
+  border: none;
+}
+
+.post-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.post-modal button {
+  margin-top: 10px;
+}
